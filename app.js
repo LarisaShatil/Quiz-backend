@@ -10,6 +10,7 @@ const loginRouter = require('./controllers/login')
 const resultsRouter = require('./controllers/results')
 
 const app = express()
+app.use(express.static('dist'))
 app.use(express.json())
 app.use(cors())
 app.use(middleware.tokenExtractor)
