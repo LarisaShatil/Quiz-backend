@@ -2,6 +2,7 @@
 node_modules/
 tailwindcss
 
+
 # Environment variables
 .env
 .env.local
